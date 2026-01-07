@@ -1,6 +1,6 @@
 <script setup>
 import { ref, onMounted } from "vue";
-import { getHello } from "../api/commonApi";
+import { getHello } from "@/api/commonApi";
 
 const msg = ref("");
 
